@@ -1,0 +1,29 @@
+.hero-container{
+    display: flex;
+    background-color: rgb(143, 240, 174);
+    padding:20px;
+    font-size: 1.25em;
+    align-items: center;
+    gap:40px;
+    border-radius: 15px ;
+
+
+}
+.hero-container img{
+    width: 100%;
+    border-radius: 10px;
+}
+body{
+    max-width: 1140px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+}
+
+.hero-container button{
+    background-color: brown;
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 1pc;
+    font-size: 1.1em;
+}

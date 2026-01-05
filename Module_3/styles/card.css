@@ -1,0 +1,43 @@
+
+body{
+    max-width: 1170px;
+    background-color: rgb(217, 214, 211);
+    margin: 0 auto ;
+}
+
+.card{
+    display: flex;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+.c{
+    width: 300px;
+    border: solid rgb(94, 114, 108);
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 10px rgb(43, 43, 43);
+
+}
+
+.c:hover{
+    background-color: rgb(166, 196, 144);
+}
+.c img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.c h3{
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+.c button{
+        background-color: rgb(59, 57, 57);
+    color:white;
+    border:none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.1em;
+}
